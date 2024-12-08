@@ -21,11 +21,14 @@ h2 {
     font-weight: 900;
 }
 
-.nav, .hero, #portafolio, #servicios, #contacto {
+.nav, .hero, #portafolio, #servicios, #contacto, .footer {
     display: flex;
+    padding: 8px 240px;
+}
+
+.nav, .hero, #portafolio, #servicios {
     justify-content: space-between;
     align-items: center;
-    padding: 8px 240px;
 }
 
 .nav, .hero, .footer {
@@ -77,6 +80,78 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
-    border: solid 1px #f9faf8;
     border-radius: 8px;
+    border: none;
+}
+
+#portafolio, #servicios, #contacto {
+    flex-direction: column;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    color: #1f2937;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.card {
+    flex-basis: 240px;
+    text-align: center;
+}
+
+.content img {
+    width: 240px;
+    height: auto;
+    border-radius: 12px;
+    border: solid 4px #3882f6;
+}
+
+.card-tittle {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.card-tittle, h2 {
+    margin: 8px 0;
+}
+
+#servicios {
+    background-color: #e5e7eb;
+}
+
+.intro {
+    justify-content: center;
+    text-align: center;
+    width: 640px;
+}
+
+.services {
+    margin-top: 24px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.contact {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    justify-content: space-around;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.contact button {
+    border: solid 1px #f9faf8;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 20px;
 }
