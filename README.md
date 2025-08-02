@@ -14,4 +14,4 @@ Habilidades trabajadas
 Objetivo final
 Recrear fielmente el diseño original, aplicando buenas prácticas en la estructura y el estilo de la página.
 
-Live preview https://jokercg.github.io/Proyecto-Landing-page-Odin/
+[Live preview](https://jrodriguezcreativo.github.io/Proyecto-Landing-page-Odin/)
